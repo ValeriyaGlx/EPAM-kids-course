@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ЕПАМ ЛЕРА</title>
+
+  <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a class="header-link" href="#info">Информация</a>
+      <a class="header-link" href="#photo-gallery">Фотогалерея</a>
+      <a class="header-link" href="#quiz">Викторина</a>
+    </nav>
+  </header>
+  <main>
+    <div class="main-section">
+      <div class="main-info">
+        <h1 class="main-title">Мой кот Буба</h1>
+        <img class="main-img" src="./img/cat.png" />
+      </div>
+      <h2 id="info">Информация</h2>
+      <section class="section1">
+        <img class="section-img" src="./img/1.png" />
+        <div>
+          <h2>Как он у меня появился</h2>
+          <p>Однажды мы с семьёй шли по улице, когда за нами увязалась стая собак. 
+            Вдруг они резко свернули в сторону и начали лаять, столпились вокруг чего-то. 
+            Мы подбежали — это оказался маленький котёнок. Мы отогнали собак, котёнок сначала шипел, 
+            а потом спрятался у нас под ногами. Мы забрали его на ночь домой, влюбились, и уже никуда его не отпустили.
+          </p>
+        </div>
+      </section>
+
+      <section class="section2">
+        <img class="section-img" src="./img/2.png" />
+        <div>
+          <h2>Его характер</h2>
+          <p>Он оказался удивительно добрым и ласковым. 
+            Совсем не вредный, в нём нет ни капли агрессии. Он обожает сидеть рядом, тихо мурлыкать и прижиматься. 
+            Всегда приходит, если кому-то грустно, и умеет создавать уют.</p>
+        </div>
+      </section>
+
+      <section class="section3">
+        <img class="section-img" src="./img/3.png" />
+        <div>
+          <h2>Любимые привычки</h2>
+          <p>Он обожает сидеть на холодильнике и наблюдать за всеми свысока! 
+            Еще он соня, и любит валяться со мной обнимку хоть до 12 дня. Говорят, что котики будят своих хозяев в 5 утра, 
+          но тут точно он не такой и расталкивать приходится его.</p>
+        </div>
+      </section>
+    </div>
+    <!-- Фотогалерея -->
+    <div class="gallery">
+      <h2 id="photo-gallery">Фотогалерея</h2>
+      <section class="gallery-section">
+        <input type="checkbox" class="gallery-input" id="photo1" />
+        <label for="photo1" class="gallery-info">
+          <span>Время обеда</span>
+          <div class="gallery-plus">+</div>
+        </label>
+        <label for="photo1" class="gallery-img">
+          <img src="./img/1.png" />
+        </label>
+      </section>
+
+      <section class="gallery-section">
+        <input type="checkbox" class="gallery-input" id="photo2" />
+        <label for="photo2" class="gallery-info">
+          <span>Автопортрет</span>
+          <div class="gallery-plus">+</div>
+        </label>
+        <label for="photo2" class="gallery-img">
+          <img src="./img/2.png" />
+        </label>
+      </section>
+
+      <section class="gallery-section">
+        <input type="checkbox" class="gallery-input" id="photo3" />
+        <label for="photo3" class="gallery-info">
+          <span>❤️</span>
+          <div class="gallery-plus">+</div>
+        </label>
+        <label for="photo3" class="gallery-img">
+          <img src="./img/3.png" />
+        </label>
+      </section>
+    </div>
+
+  <!-- Викторина -->
+  <div class="quiz">
+    <h2 id="quiz" class="quiz-title">Викторина</h2>
+    <div class="quiz-container">
+      <div class="quiz-card-wrapper">
+        <article class="quiz-card">
+          <div class="quiz-side front">
+            <p><strong>Вопрос:</strong> Как зовут моего кота?</p>
+          </div>
+          <div class="quiz-side back">
+            <p><strong>Ответ:</strong> <em>Буба</em></p>
+          </div>
+        </article>
+      </div>
+      <div class="quiz-card-wrapper">
+        <article class="quiz-card">
+          <div class="quiz-side front">
+            <p><strong>Вопрос:</strong> Как зовут моего кота?</p>
+          </div>
+          <div class="quiz-side back">
+            <p><strong>Ответ:</strong> <em>Буба</em></p>
+          </div>
+        </article>
+      </div>
+      <div class="quiz-card-wrapper">
+        <article class="quiz-card">
+          <div class="quiz-side front">
+            <p><strong>Вопрос:</strong> Как зовут моего кота?</p>
+          </div>
+          <div class="quiz-side back">
+            <p><strong>Ответ:</strong> <em>Буба</em></p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+
+  </main>
+</body>
+
+</html>
